@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\project\project\pierce\Dontmoveyou\build\KeyFreezeCloneSkeleton_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\project\project\pierce\Dontmoveyou\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\project\project\pierce\Dontmoveyou\src\core\input_blocker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\project\project\pierce\Dontmoveyou\src\core\hotkey_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\project\project\pierce\Dontmoveyou\src\services\tray_service.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\project\project\pierce\Dontmoveyou\src\services\settings_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\project\project\pierce\Dontmoveyou\src\services\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\project\project\pierce\Dontmoveyou\src\platform\win32_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\project\project\pierce\Dontmoveyou\src\ui\main_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\project\project\pierce\Dontmoveyou\src\ui\settings_window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\project\project\pierce\Dontmoveyou\build\KeyFreezeCloneSkeleton_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\project\project\pierce\Dontmoveyou\build\KeyFreezeCloneSkeleton_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\project\project\pierce\Dontmoveyou\build\KeyFreezeCloneSkeleton_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\project\project\pierce\Dontmoveyou\src\core\input_blocker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\project\project\pierce\Dontmoveyou\src\core\hotkey_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\project\project\pierce\Dontmoveyou\src\services\tray_service.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\project\project\pierce\Dontmoveyou\src\services\settings_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\project\project\pierce\Dontmoveyou\src\services\logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\project\project\pierce\Dontmoveyou\src\platform\win32_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\project\project\pierce\Dontmoveyou\src\common\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\project\project\pierce\Dontmoveyou\src\common\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\project\project\pierce\Dontmoveyou\src\ui\main_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\project\project\pierce\Dontmoveyou\src\ui\settings_window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\project\project\pierce\Dontmoveyou\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{28D9F569-E08D-3DA2-BF7F-77D8BC3CBE56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{67D89287-4C12-3B76-9063-4308156EB205}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

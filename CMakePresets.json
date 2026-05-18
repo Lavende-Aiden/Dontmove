@@ -1,0 +1,49 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "windows-msvc-release",
+            "displayName": "Windows MSVC Release",
+            "description": "使用 Visual Studio 17 2022 构建 Release 版本",
+            "generator": "Visual Studio 17 2022",
+            "architecture": {
+                "value": "x64",
+                "strategy": "set"
+            },
+            "binaryDir": "${sourceDir}/build",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Release",
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/install"
+            }
+        },
+        {
+            "name": "windows-msvc-debug",
+            "displayName": "Windows MSVC Debug",
+            "description": "使用 Visual Studio 17 2022 构建 Debug 版本",
+            "generator": "Visual Studio 17 2022",
+            "architecture": {
+                "value": "x64",
+                "strategy": "set"
+            },
+            "binaryDir": "${sourceDir}/build",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/install"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "release",
+            "displayName": "Release 构建",
+            "configurePreset": "windows-msvc-release",
+            "configuration": "Release"
+        },
+        {
+            "name": "debug",
+            "displayName": "Debug 构建",
+            "configurePreset": "windows-msvc-debug",
+            "configuration": "Debug"
+        }
+    ]
+}

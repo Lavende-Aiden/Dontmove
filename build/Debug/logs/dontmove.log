@@ -1,0 +1,15 @@
+[2026-04-15 18:17:14.403] [INFO] [Logger] Logger initialized
+[2026-04-15 18:17:14.404] [INFO] [main] Application starting
+[2026-04-15 18:17:14.908] [INFO] [main] Application started successfully
+[2026-04-16 22:43:32.167] [INFO] [Logger] Logger initialized
+[2026-04-16 22:43:32.168] [INFO] [main] Application starting
+[2026-04-16 22:43:32.578] [INFO] [main] Application started successfully
+[2026-05-18 11:13:57.102] [INFO] [Logger] Logger initialized
+[2026-05-18 11:13:57.105] [INFO] [main] 应用程序启动中
+[2026-05-18 11:13:57.110] [INFO] [keyfreeze::TrayService::setup] 托盘服务已初始化
+[2026-05-18 11:13:57.443] [INFO] [main] 应用程序启动完成
+[2026-05-18 12:04:43.369] [INFO] [Logger] Logger initialized
+[2026-05-18 12:04:43.370] [INFO] [main] 应用程序启动中
+[2026-05-18 12:04:43.372] [INFO] [keyfreeze::TrayService::setup] 托盘服务已初始化
+[2026-05-18 12:04:43.580] [INFO] [main] 应用程序启动完成
+[2026-05-18 12:05:08.285] [WARNING] [keyfreeze::InputBlocker::enable] 输入阻断需要管理员权限，请以管理员身份运行

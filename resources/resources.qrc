@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="app.ico">icons/app.ico</file>
+        <file alias="setting.ico">icons/setting.ico</file>
+        <file alias="lock.ico">icons/lock.ico</file>
+        <file alias="up.ico">icons/up.ico</file>
+        <file alias="smaller.ico">icons/smaller.ico</file>
+        <file alias="close.ico">icons/close.ico</file>
+    </qresource>
+</RCC>

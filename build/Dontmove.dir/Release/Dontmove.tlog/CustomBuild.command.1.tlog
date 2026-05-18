@@ -1,0 +1,24 @@
+^D:\PROJECT\PROJECT\PIERCE\DONTMOVEYOU\BUILD\CMAKEFILES\118403F6CE62326CF96981A4ECCCAAF9\QRC_RESOURCES.CPP.RULE
+setlocal
+cd D:\project\project\pierce\Dontmoveyou\build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\APP\cmake\bin\cmake.exe -E cmake_autorcc D:/project/project/pierce/Dontmoveyou/build/CMakeFiles/Dontmove_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Info.json Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\PROJECT\PROJECT\PIERCE\DONTMOVEYOU\CMAKELISTS.TXT
+setlocal
+D:\APP\cmake\bin\cmake.exe -SD:/project/project/pierce/Dontmoveyou -BD:/project/project/pierce/Dontmoveyou/build --check-stamp-file D:/project/project/pierce/Dontmoveyou/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
